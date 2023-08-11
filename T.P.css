@@ -1,0 +1,377 @@
+/*CSS*/
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #A39A91;
+   z-index: -1;
+}
+/*...............................HEADER.....................................*/
+header {
+    background-color: #ad1212;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    z-index: -1;
+}
+.titulo1 {
+    display: flex;
+    position: absolute;
+    font-family:'Backly Highs', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 67px;
+    left: 800px;
+    top: 92px;
+}
+.titulo2 {
+    font-family: 'SansXHigh', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 11.7em;
+    margin-left: 750px;
+    font-size: 1.70em;
+}
+ul {
+    font-family:'SansXHigh', sans-serif;
+    width: 100%;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(255, 255, 255);
+}
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+nav {
+    display: flex;
+    position: absolute;
+    top: 24.4em;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    margin-left: -68.6em;
+    cursor: pointer;
+}
+/*...................................................BODY...........................................................................*/
+/*................PRIMER PARTE...........*/
+.presentacion {
+    margin-top: 40em;
+    background-color: #A39A91;
+    background-size: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+.info h3 {
+    font-family: 'Manthul', sans-serif;
+    margin-top: 2em;
+    margin-left: 18em;
+    color: #ad1212 ;
+    font-size: 3em;
+    position: relative;
+}
+.info p {
+    display: flex;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    font-family: 'SansXHigh', sans-serif;
+    margin-left: 42em;
+    margin-top: -2em;
+    padding: 8em;
+}
+.fotoinfo {
+    border-radius: 60px;
+    margin-left: 15em;
+    display: flex;
+    position: absolute;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    box-shadow: 0px 15px 20px;
+    cursor: pointer;
+}
+
+.fotoinfo:hover {
+  -webkit-transform: scale(.5);
+  transform: scale(.5);
+}
+/*...........................SEGUNDA PARTE....................*/
+.alternativa {
+    display: flex;
+    position: absolute;
+    left: 2em;
+    top: 80em;
+    padding: 0;
+    margin: 0;
+}
+.alternativa h3{
+    font-family: 'Manthul', sans-serif;
+    color:#ad1212;
+    font-size: 3em;
+    display: flex;
+    position: absolute;
+    left: 17em;
+    top: -3em;
+}
+.alternativa p{
+    display: flex;
+    font-family: 'SansXHigh', sans-serif;
+    font-size: 1em;
+    margin-left: 8em;
+    margin-top: 8em;
+}
+.fondo{
+    margin-right: 13em;
+    display: flex;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    box-shadow: 0px 15px 20px;
+    cursor: pointer;
+}
+
+.fondo:hover {
+  -webkit-transform: scale(.5);
+  transform: scale(.5);
+}
+/*.......................................................NAVEGACION.....................................................*/
+.lista {
+    margin-top: 80em;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+.img1 {
+    background: url(https://www.noticiasformosa.com.ar/wp-content/uploads/2021/06/Hamburguesas.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+    background-color:rgb(165, 131, 131);
+}
+.img2 {
+    background: url(https://www.noticiasformosa.com.ar/wp-content/uploads/2021/06/Hamburguesas.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.img3 {
+    background: url(https://www.noticiasformosa.com.ar/wp-content/uploads/2021/06/Hamburguesas.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.img4 {
+    background: url(https://www.noticiasformosa.com.ar/wp-content/uploads/2021/06/Hamburguesas.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.img5 {
+    background: url(https://www.noticiasformosa.com.ar/wp-content/uploads/2021/06/Hamburguesas.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.img6 {
+    background: url(https://www.noticiasformosa.com.ar/wp-content/uploads/2021/06/Hamburguesas.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.post {
+    box-shadow: 0 1px 6px 1px rgba(0,0,0, .1);
+    overflow: hidden;
+    transition: .2s;
+    background-color:#856b5c;
+}
+.post:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 1px 14px 2px rgba(0,0,0,.15);
+}
+.articulos {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.post:hover .img1
+.post:hover .img2
+.post:hover .img3
+.post:hover .img4
+.post:hover .img5
+.post:hover .img6{
+    transform: scale(1.1);
+}
+.info1 {
+    padding: 15px;
+    text-align: center;
+}
+.info1 span{
+    display: inline-block;
+    color: black;
+    margin-bottom: 10px;
+    font-family: 'SansXHigh', sans-serif;
+}
+.info1 h2{
+    margin-bottom: 15px;
+    font-family: 'SansXHigh', sans-serif;
+}
+.info1 p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: 'SansXHigh', sans-serif;
+}
+/*.............BOTONES...........*/
+.info1 .link{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background: #ad1212;
+    color: aliceblue;
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 1px 2px 6px 1px rgba(0,0,0, .1);
+    transition: .2s;
+}
+.info1 .link:hover {
+    background: #d67676;
+    box-shadow: 1px 2px 6px 1px rgba(0,0,0, .2);
+    transform: translateY(-2px);
+}
+@media (max-widht: 840px){
+    .contenedor {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-widht: 600px){
+    .contenedor {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/*...............HORARIOS...............*/
+.horarios h2{
+    font-family: 'SansXHigh', sans-serif;
+    margin-left: 2em;
+}
+.horarios p{
+    font-family: 'SansXHigh', sans-serif;
+    margin-left: 2em;
+    text-decoration: dotted;
+    margin-top: 40px;
+}
+/*.............UBICACION.............*/
+.ubicacion {
+    margin-top: 80px;
+    display: flex;
+}
+.ubicacion h2{
+    display: flex;
+    font-family: 'SansXHigh', sans-serif;
+    margin-left: 2em;
+}
+.ubi {
+    margin-left: 6px;
+    display: flex;
+    margin-top: 90px;
+}
+/*..............................................................FOOTER...............................................................................*/
+/*..................REDES.............*/
+footer {
+    background-color: #835c42;
+    background-size: cover;
+    padding: 0;
+    width: 100%;
+    height: 30%;
+    position:absolute;
+    display: flex;
+    
+}
+.redes {
+    bottom: 13em;
+    left: 850px;
+    display: flex;
+    position: absolute;
+    font-family: 'Hwyl fawr Hello', sans-serif;                                            
+    background-color: #835c42;
+    color: aliceblue;
+}
+.buttons {
+    left: 3px;
+    bottom: -4em;
+    display: flex;
+    position: absolute;
+    background-color:#835c42;
+}
+.redes .buttons:hover{
+    transform: translateY(-6px);
+    transition: 1s;
+}
+/*...............NUMEROS..............*/
+.numeros {
+    margin-left: 450px;
+    bottom: 30em;
+    font-family: 'Hwyl fawr Hello', sans-serif; 
+    color: aliceblue;
+    
+}
+.numeros ul{
+    background-color: #835c42;
+    color: aliceblue;
+}
+.numeros button {
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: #835c42;
+    border: none;
+}
+.numeros button:hover {
+    color: #ad1212;
+}
+.contador {
+    display: flex;
+    position: absolute;
+    left: 1255px;
+    bottom: 10em;
+}
+.clima {
+    display: flex;
+    position: absolute;
+    left: 1245px;
+    bottom: 14em;
+}

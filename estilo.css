@@ -1,0 +1,30 @@
+
+header {
+    display: flex;
+    padding: 10px;
+    min-height: 70px;
+    background-color: coral;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.container img{
+    height: 50px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+}
+nav a:hover{
+    color: azure;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+}

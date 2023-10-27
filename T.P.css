@@ -1,41 +1,86 @@
-/*CSS*/
+/*...............MEDIA QUERY 1440PX...............*/
+@media (max-width: 1440px){
+    header {
+        display: flex;
+        position: absolute;
+        width: 1440px;
+    }
+    .titulo1 {
+        margin-left: -12%;
+        display: flex;
+        position: absolute;
+    }
+    .titulo2 {
+        margin-left: -4%;
+        display: flex;
+        top: 600%;
+    }
+    .nav {
+        left: 57.7%;
+        display: flex;
+        position: absolute;
+        top: 90%;
+    }
+    .alternativa p{
+        margin-left: 1%;
+        display: flex;
+        position: absolute;
+        padding-right: 55%;
+        top: -70%;
+    }
+    .fondo{
+        width: 30%;
+        height: 30%;
+        margin-left: 50%;
+    }
+    .redes {
+        margin-bottom: -2%;
+        display: flex;
+        position: absolute;
+        left: -5%;
+    }
+    .numeros {
+        left: -10%;
+        position: absolute;
+        display: flex;
+        margin-bottom: -25%;
+    }
+   
+}
+/*.......................................................CSS..................................................*/
 body {
    margin: 0;
    padding: 0;
    background-color: #A39A91;
    z-index: -1;
 }
-/*...............................HEADER.....................................*/
+
+/*..........................................................HEADER.................................................................*/
 header {
     background-color: #ad1212;
-    background-size: cover;
+    background-size: 100%;
     width: 100%;
     height: 100%;
     position: relative;
     display: flex;
-    
-    
-}
-.titulo1 {
+ }
+ .titulo1 {
     display: flex;
     position: absolute;
     font-family:'Backly Highs', sans-serif;
     color: rgb(255, 255, 255);
-    font-size: 400%;
-    left: 80%;
-    top: 9%;
-    text-align: center;
-}
-.titulo2 {
+    font-size: 67px;
+    left: 800px;
+    top: 95px;
+ }
+ .titulo2 {
     font-family: 'SansXHigh', sans-serif;
     color: rgb(255, 255, 255);
-    margin-top: 11.7em;
-    margin-left: 55%;
-    font-size: 170%;
-    text-align: center;
-    display: flex;
-}
-ul {
+    margin-top: 12em;
+    margin-left: 750px;
+    font-size: 1.70em;
+ }
+ ul {
     font-family:'SansXHigh', sans-serif;
     width: 100%;
     align-items: center;
@@ -44,7 +89,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color:rgb(255, 255, 255);
-}
+ }
 li {
     float: left;
 }
@@ -54,18 +99,16 @@ li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-weight: bolder;
-    
+    font-weight: bolder;   
 }
 nav {
     display: flex;
     position: absolute;
-    top: 24.4em;
+    top: 90%;
     width: 100%;
     text-align: center;
     z-index: 1;
-    margin-left: -68.6em;
-    cursor: pointer;
+    margin-left: -57.7%;
 }
 /*...................................................BODY...........................................................................*/
 /*................PRIMER PARTE...........*/
@@ -73,42 +116,43 @@ nav {
     margin-top: 40em;
     background-color: #A39A91;
     background-size: 100%;
-    padding: 0;
-    margin: 0;
+    width: 100%;
     display: flex;
 
 }
 .info h3 {
     font-family: 'Manthul', sans-serif;
-    margin-top: 2em;
-    margin-left: 18em;
-    color: #ad1212 ;
+    top: 58%;
+    left: 43%;
+    color: #ad1212;
     font-size: 300%;
-    position: relative;
+    position: absolute;
     display: flex;
 }
 .info p {
     display: flex;
     position: absolute;
     color: rgb(0, 0, 0);
-    font-size: 100%;
     font-family: 'SansXHigh', sans-serif;
-    margin-left: 15%;
-    margin-top: -8%;
+    margin-left: 28%;
+    top: 55%;
+    padding: 12% 20%;
    
 }
 .fotoinfo {
-    margin-left: 15em;
+    margin-left: 15%;
     display: flex;
     position: absolute;
     -webkit-transition: 1s linear;
     transition: 1s linear;
+    
     cursor: pointer;
+    top: 80%;
 }
 
 .fotoinfo:hover {
-  -webkit-transform: scale(.5);
-  transform: scale(.5);
+    transform: translateY(-15%);
+    transition: 1s;
 }
 /*...........................SEGUNDA PARTE....................*/
 .alternativa {
@@ -122,20 +166,21 @@ nav {
 .alternativa h3{
     font-family: 'Manthul', sans-serif;
     color:#ad1212;
-    font-size: 100%;
+    font-size: 300%;
     display: flex;
     position: absolute;
-    left: 17em;
-    top: -3em;
+    left: 35%;
+    top: 30%;
 }
 .alternativa p{
     display: flex;
     font-family: 'SansXHigh', sans-serif;
     font-size: 1em;
-    margin-left: 8em;
-    margin-top: 8em;
+    margin-left: 5%;
+    margin-top: 70%;
 }
 .fondo{
+    margin-top: 30%;
     margin-right: 13em;
     display: flex;
     -webkit-transition: 1s linear;
@@ -145,8 +190,8 @@ nav {
 }
 
 .fondo:hover {
-  -webkit-transform: scale(.5);
-  transform: scale(.5);
+    transform: translateY(-15%);
+    transition: 1s;
 }
 /*.......................................................NAVEGACION.....................................................*/
 .lista {
@@ -157,6 +202,7 @@ nav {
     justify-content: center;
     padding: 30px 15px;
 }
+
 .contenedor {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -164,6 +210,16 @@ nav {
     max-width: 1000px;
     margin: auto;
     
+}
+.contenedor h3 {
+    font-family: 'Manthul', sans-serif;
+    color:#ad1212;
+    font-size: 300%;
+    margin-top: -8%;
+    left: 45%;
+    z-index: 1;
+    position: absolute;
+    display: flex;
 }
 .img1 {
     background: url(https://www.noticiasformosa.com.ar/wp-content/uploads/2021/06/Hamburguesas.jpg);
@@ -257,7 +313,7 @@ nav {
     margin-bottom: 20px;
     font-family: 'SansXHigh', sans-serif;
 }
-/*.............BOTONES...........*/
+/*.....................................BOTONES................................*/
 .info1 .link{
     display: block;
     text-decoration: none;
@@ -277,7 +333,7 @@ nav {
 }
 @media (max-widht: 840px){
     .contenedor {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 @media (max-widht: 600px){
@@ -285,7 +341,7 @@ nav {
         grid-template-columns: repeat(1, 1fr);
     }
 }
-/*...............HORARIOS...............*/
+/*................................HORARIOS................................*/
 .horarios h2{
     font-family: 'SansXHigh', sans-serif;
     margin-left: 2em;
@@ -296,7 +352,7 @@ nav {
     text-decoration: dotted;
     margin-top: 40px;
 }
-/*.............UBICACION.............*/
+/*................................UBICACION................................*/
 .ubicacion {
     margin-top: 80px;
     display: flex;
@@ -313,20 +369,21 @@ nav {
     margin-top: 90px;
 }
 /*..............................................................FOOTER...............................................................................*/
-/*..................REDES.............*/
+/*........................REDES........................*/
 footer {
     background-color: #835c42;
     background-size: cover;
     padding: 0;
     width: 100%;
     height: 30%;
-    position:absolute;
+    position: absolute;
     display: flex;
-    
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 .redes {
     bottom: 13em;
-    left: 840px;
+    left: 850px;
     display: flex;
     position: absolute;
     font-family: 'Hwyl fawr Hello', sans-serif;                                            
